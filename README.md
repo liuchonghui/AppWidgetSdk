@@ -4,6 +4,6 @@ An Android FloatWidget SDK project, support for RemoteView that floating in fron
 
  Snapshot of SimpleClockWidget:
  move to center
-+ ![Indexbar with no container](https://raw.githubusercontent.com/liuchonghui/AppWidgetSdk/master/mages/snapshot01.jpg)
- move to side
-+ ![Indexbar with no container](https://raw.githubusercontent.com/liuchonghui/AppWidgetSdk/master/mages/snapshot02.jpg)
++ ![Indexbar with no container](https://raw.githubusercontent.com/liuchonghui/AppWidgetSdk/master/images/snapshot01.jpg)
+ And move to side
++ ![Indexbar with no container](https://raw.githubusercontent.com/liuchonghui/AppWidgetSdk/master/images/snapshot02.jpg)
