@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="AnalogClock">
+        <attr name="timeZone" format="string" />
+        <attr name="dial" format="reference" />
+        <attr name="hand_hour" format="reference" />
+        <attr name="hand_minute" format="reference" />
+        <attr name="hand_second" format="reference" />
+    </declare-styleable>
+
+</resources>

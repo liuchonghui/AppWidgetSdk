@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <RelativeLayout
+        android:id="@+id/window"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/window"
+        android:visibility="visible" >
+
+        <com.solo.appwidget.clock.EnhancedAnalogClock
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/clock"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="visible"
+            app:dial="@drawable/dial"
+            app:hand_hour="@drawable/hour"
+            app:hand_minute="@drawable/minute"
+            app:hand_second="@drawable/second" />
+    </RelativeLayout>
+
+    <AnalogClock
+        android:id="@+id/snapshot"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/snapshot"
+        android:visibility="gone" >
+    </AnalogClock>
+
+</FrameLayout>
